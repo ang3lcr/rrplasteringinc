@@ -1,3 +1,4 @@
+import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import { Finishes } from './pages/Finishes'
 import Home from './pages/Home'
@@ -15,6 +16,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />}/>
         <Route path="/finishes" element={<Finishes />}/>
       </Routes>
+      <Footer />
     </HashRouter>
   )
 }
