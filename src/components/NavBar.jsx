@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from "../assets/logosinletras.png"
+import { Link } from "react-router-dom"
+import { Link as LinkSmooth } from "react-scroll"
+
+
+
 
 const NavBar = () => {
   return (
-    <div className='relative w-full z-50 bg-blue-500 flex justify-around items-center'>
-        <img src={Logo} alt="" className='w-16'/>
-        <ul className='flex w-1/2 justify-around text-xl text-yellow-300 font-body font-bold'>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Portfolio</li>
-        </ul>
+    <div className='relative w-full z-50 bg-blue-500 flex justify-between items-center'>
+      <div className=''>
+        <img src={Logo} alt="" className='w-16 ml-20'/>
+      </div>
+      <div className='w-2/5 flex flex-row justify-around'>
+        <Link to="/" className='text-amber-300'>Home</Link>
+        <Link to="finishes" smooth={true} className='text-amber-300'>Finishes</Link>
+        <Link to="/portfolio" className='text-amber-300'>Portfolio</Link>
+      </div>
     </div>
   )
 }

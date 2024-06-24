@@ -1,6 +1,6 @@
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
-import { Finishes } from './pages/Finishes'
+import  Finishes  from './pages/Finishes'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import {HashRouter, Routes, Route} from 'react-router-dom'
