@@ -22,7 +22,8 @@ const Home = () => {
 
             <div className='flex flex-col justify-center items-center mt-24 mb-24 bg-zinc-100' id='about'>
                 <p className='text-3xl p-2'>R&R PLASTERING INC</p>
-                <p className='font-body font-regular text-lg sm:text-xl md:text-2xl mt-5 w-full sm:w-5/6 md:w-4/6 p-2'>
+                <p className='text-xl font-acentos py-2'>"16 years serving the community thanks to our effort, dedication, and the trust of our clients."</p>
+                <p className='font-body font-regular text-lg sm:text-xl md:text-2xl mt-5 w-full sm:w-5/6 md:w-4/6 p-2 mb-5'>
                     Revitalize your home or commercial property with our comprehensive re-stucco services.
                     Our experienced team specializes in the meticulous removal of old stucco, addressing any underlying issues,
                     and applying a fresh, high-quality finish. With a focus on attention to detail and quality craftsmanship, w
