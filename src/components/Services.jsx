@@ -7,7 +7,7 @@ import img3 from "../assets/services/img3.png"
 const Services = () => {
     return (
         <div className=''>
-            <div id="service1" className='flex flex-col md:flex-row justify-center items-center flex-wrap'>
+            <div id="service1" className='flex flex-col md:flex-row justify-center items-center flex-wrap mt-10'>
                 <img src={img1} alt="" className='sm:m-8 md:m-10 w-full sm:w-2/3 md:w-1/3' />
                 <div className='flex flex-col justify-center items-center w-full md:w-1/2 p-5 sm:p-8 md:p-10'>
                     <p className='text-xl sm:text-2xl md:text-3xl text-center md:text-left'>How we prevent future cracks?</p>
@@ -21,7 +21,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div id="service2" className='flex flex-col md:flex-row justify-center items-center flex-wrap'>
+            <div id="service2" className='flex flex-col md:flex-row justify-center items-center flex-wrap mt-10'>
                 <div className='flex flex-col justify-center items-center w-full md:w-1/2 p-5 sm:p-8 md:p-10'>
                     <p className='text-xl sm:text-2xl md:text-3xl text-center md:text-left'>Paper Wire Installation</p>
                     <p className='text-lg sm:text-xl md:text-2xl font-body font-regular mt-4'>
@@ -34,7 +34,7 @@ const Services = () => {
             </div>
 
 
-            <div id="service3" className='flex flex-col md:flex-row justify-center items-center flex-wrap'>
+            <div id="service3" className='flex flex-col md:flex-row justify-center items-center flex-wrap mt-10'>
                 <img src={img3} alt="" className='sm:m-8 md:m-10 w-full sm:w-2/3 md:w-1/3' />
                 <div className='flex flex-col justify-center items-center w-full md:w-1/2 p-5 sm:p-8 md:p-10'>
                     <p className='text-xl sm:text-2xl md:text-3xl text-center md:text-left'>Drywall Jobs</p>
