@@ -21,7 +21,7 @@ const Home = () => {
             </div>
 
             <div className='flex flex-col justify-center items-center mt-24 mb-24 bg-zinc-100' id='about'>
-                <p className='text-3xl p-2'>R&R PLSATERING INC</p>
+                <p className='text-3xl p-2'>R&R PLASTERING INC</p>
                 <p className='font-body font-regular text-lg sm:text-xl md:text-2xl mt-5 w-full sm:w-5/6 md:w-4/6 p-2'>
                     Revitalize your home or commercial property with our comprehensive re-stucco services.
                     Our experienced team specializes in the meticulous removal of old stucco, addressing any underlying issues,
