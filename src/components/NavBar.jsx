@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div className='relative w-full z-50 bg-blue-500 flex justify-between items-center'>
       <div className=''>
-        <img src={Logo} alt="" className='w-16 ml-20'/>
+        <img src={Logo} alt="" className='w-16 ml-10 mt-2'/>
       </div>
       <div className='w-2/5 flex flex-row justify-around'>
         <Link to="/" className='text-amber-300'>Home</Link>
